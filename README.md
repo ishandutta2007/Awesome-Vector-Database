@@ -70,71 +70,71 @@ The table below outlines leading hosted Vector Database-as-a-Service (DBaaS) pro
 
 ## ⚡ Open-Source Vector Databases & Libraries
 
-Open source remains the bedrock of vector retrieval and embedding infrastructure. The repositories below are sorted in descending order by **GitHub Star Count**, with live social badges linking straight to each repository's stargazers.
+Open source remains the bedrock of vector retrieval and embedding infrastructure. The repositories below are sorted in descending order by **GitHub Stars_Count**, with live social badges linking straight to each repository's stargazers.
 
 ### 🏆 Top Open-Source Vector Engines (Ranked by Stars)
 
-1. **[Meilisearch](https://github.com/meilisearch/meilisearch)** [![GitHub stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers)  
+1. **[Meilisearch](https://github.com/meilisearch/meilisearch)** [![GitHub_Stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers)  
    🦀 **Language**: Rust | 🔍 **Specialty**: Lightning-Fast Hybrid Search  
    An ultra-fast, open-source search engine providing delightful developer ergonomics, typo tolerance, and seamless hybrid search combining keyword and vector similarity queries.
 
-2. **[Milvus](https://github.com/milvus-io/milvus)** [![GitHub stars](https://img.shields.io/github/stars/milvus-io/milvus?style=social&color=white)](https://github.com/milvus-io/milvus/stargazers)  
+2. **[Milvus](https://github.com/milvus-io/milvus)** [![GitHub_Stars](https://img.shields.io/github/stars/milvus-io/milvus?style=social&color=white)](https://github.com/milvus-io/milvus/stargazers)  
    🌐 **Language**: Go / C++ | 🏢 **Specialty**: Massive Distributed Scale  
    An open-source distributed vector database built from the ground up for massive-scale embedding retrieval, supporting multiple indexing strategies (HNSW, IVF, SCaNN) and multi-billion-vector datasets.
 
-3. **[Faiss](https://github.com/facebookresearch/faiss)** [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/faiss?style=social&color=white)](https://github.com/facebookresearch/faiss/stargazers)  
+3. **[Faiss](https://github.com/facebookresearch/faiss)** [![GitHub_Stars](https://img.shields.io/github/stars/facebookresearch/faiss?style=social&color=white)](https://github.com/facebookresearch/faiss/stargazers)  
    🔬 **Language**: C++ / Python | ⚡ **Specialty**: Core Algorithm Library & GPU Acceleration  
    Meta’s industry-standard library for efficient similarity search and clustering of dense vectors. Contains state-of-the-art GPU-accelerated indexes that power many production vector engines.
 
-4. **[Qdrant](https://github.com/qdrant/qdrant)** [![GitHub stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers)  
+4. **[Qdrant](https://github.com/qdrant/qdrant)** [![GitHub_Stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers)  
    🦀 **Language**: Rust | 🛡️ **Specialty**: Rich JSON Payload Filtering & Quantization  
    A high-performance vector search engine written in Rust. Features first-class support for extended payload filtering during nearest neighbor traversal and memory-efficient vector quantization (Scalar/Binary/PQ).
 
-5. **[Chroma](https://github.com/chroma-core/chroma)** [![GitHub stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social&color=white)](https://github.com/chroma-core/chroma/stargazers)  
+5. **[Chroma](https://github.com/chroma-core/chroma)** [![GitHub_Stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social&color=white)](https://github.com/chroma-core/chroma/stargazers)  
    🐍 **Language**: Python / Rust | 🎯 **Specialty**: AI-Native Developer Ergonomics  
    The popular open-source embedding database purpose-built for LLM applications. Provides native collection management, automatic embedding generation, and seamless local or client-server setups.
 
-6. **[Typesense](https://github.com/typesense/typesense)** [![GitHub stars](https://img.shields.io/github/stars/typesense/typesense?style=social&color=white)](https://github.com/typesense/typesense/stargazers)  
+6. **[Typesense](https://github.com/typesense/typesense)** [![GitHub_Stars](https://img.shields.io/github/stars/typesense/typesense?style=social&color=white)](https://github.com/typesense/typesense/stargazers)  
    ⚡ **Language**: C++ | 🔍 **Specialty**: In-Memory Typo-Tolerant Hybrid Search  
    An open-source, in-memory search engine offering out-of-the-box vector search alongside fast text search and auto-embedding generation using popular HuggingFace / OpenAI models.
 
-7. **[pgvector](https://github.com/pgvector/pgvector)** [![GitHub stars](https://img.shields.io/github/stars/pgvector/pgvector?style=social&color=white)](https://github.com/pgvector/pgvector/stargazers)  
+7. **[pgvector](https://github.com/pgvector/pgvector)** [![GitHub_Stars](https://img.shields.io/github/stars/pgvector/pgvector?style=social&color=white)](https://github.com/pgvector/pgvector/stargazers)  
    🐘 **Language**: C | 🔗 **Specialty**: PostgreSQL-Native Vector Extension  
    The open-source vector similarity search extension for PostgreSQL. Enables storing vectors right alongside relational business tables, supporting exact L2/cosine distance as well as HNSW and IVFFlat index types.
 
-8. **[Weaviate](https://github.com/weaviate/weaviate)** [![GitHub stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers)  
+8. **[Weaviate](https://github.com/weaviate/weaviate)** [![GitHub_Stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers)  
    🌐 **Language**: Go | 🧠 **Specialty**: Modular Hybrid Search & Vectorizers  
    An open-source vector search engine and database supporting schema definition, hybrid dense/sparse keyword search (BM25), and plug-and-play modules for automated text, image, and audio vectorization.
 
-9. **[txtai](https://github.com/neuml/txtai)** [![GitHub stars](https://img.shields.io/github/stars/neuml/txtai?style=social&color=white)](https://github.com/neuml/txtai/stargazers)  
+9. **[txtai](https://github.com/neuml/txtai)** [![GitHub_Stars](https://img.shields.io/github/stars/neuml/txtai?style=social&color=white)](https://github.com/neuml/txtai/stargazers)  
    🐍 **Language**: Python | 🤖 **Specialty**: All-in-One Embeddings & LLM Pipelines  
    An all-in-one embeddings database that unifies vector search, document parsing, audio transcription, and LLM orchestration within an integrated open-source Python framework.
 
-10. **[LanceDB](https://github.com/lancedb/lancedb)** [![GitHub stars](https://img.shields.io/github/stars/lancedb/lancedb?style=social&color=white)](https://github.com/lancedb/lancedb/stargazers)  
+10. **[LanceDB](https://github.com/lancedb/lancedb)** [![GitHub_Stars](https://img.shields.io/github/stars/lancedb/lancedb?style=social&color=white)](https://github.com/lancedb/lancedb/stargazers)  
     📊 **Language**: Rust / Python | 💾 **Specialty**: Serverless Columnar Storage (Lance)  
     A modern, serverless embedded vector database built on top of the open-source Lance columnar data format, delivering fast disk-based ANN search and native multimodal support without in-memory bloat.
 
-11. **[sqlite-vec](https://github.com/asg017/sqlite-vec)** [![GitHub stars](https://img.shields.io/github/stars/asg017/sqlite-vec?style=social&color=white)](https://github.com/asg017/sqlite-vec/stargazers)  
+11. **[sqlite-vec](https://github.com/asg017/sqlite-vec)** [![GitHub_Stars](https://img.shields.io/github/stars/asg017/sqlite-vec?style=social&color=white)](https://github.com/asg017/sqlite-vec/stargazers)  
     🪶 **Language**: C | 📱 **Specialty**: Lightweight & Edge-Native Vector Search  
     A lightweight, no-dependency SQLite vector search extension written in pure C. Capable of running anywhere SQLite runs, including mobile devices, edge nodes, and web browsers via WASM.
 
-12. **[Vespa](https://github.com/vespa-engine/vespa)** [![GitHub stars](https://img.shields.io/github/stars/vespa-engine/vespa?style=social&color=white)](https://github.com/vespa-engine/vespa/stargazers)  
+12. **[Vespa](https://github.com/vespa-engine/vespa)** [![GitHub_Stars](https://img.shields.io/github/stars/vespa-engine/vespa?style=social&color=white)](https://github.com/vespa-engine/vespa/stargazers)  
     🚀 **Language**: C++ / Java | 📈 **Specialty**: Billion-Scale Serving & Multi-Stage ML Ranking  
     An enterprise-grade open-source big data engine capable of serving vector search, lexical retrieval, and complex machine-learned ranking stages with sub-second latencies on enormous volumes of real-time data.
 
-13. **[hnswlib](https://github.com/nmslib/hnswlib)** [![GitHub stars](https://img.shields.io/github/stars/nmslib/hnswlib?style=social&color=white)](https://github.com/nmslib/hnswlib/stargazers)  
+13. **[hnswlib](https://github.com/nmslib/hnswlib)** [![GitHub_Stars](https://img.shields.io/github/stars/nmslib/hnswlib?style=social&color=white)](https://github.com/nmslib/hnswlib/stargazers)  
     ⚡ **Language**: C++ | 📐 **Specialty**: Header-Only Fast HNSW Algorithm  
     A header-only C++ library with clean Python bindings for fast approximate nearest neighbor search based on Hierarchical Navigable Small World graphs. Serves as the core algorithmic engine for numerous vector stores.
 
-14. **[Marqo](https://github.com/marqo-ai/marqo)** [![GitHub stars](https://img.shields.io/github/stars/marqo-ai/marqo?style=social&color=white)](https://github.com/marqo-ai/marqo/stargazers)  
+14. **[Marqo](https://github.com/marqo-ai/marqo)** [![GitHub_Stars](https://img.shields.io/github/stars/marqo-ai/marqo?style=social&color=white)](https://github.com/marqo-ai/marqo/stargazers)  
     🖼️ **Language**: Python / C++ | 🎨 **Specialty**: Native Multimodal Text & Image Retrieval  
     An end-to-end open-source vector search engine that ingests raw text and image files, transforms them into embeddings via integrated inference models, and indexes them for high-accuracy search.
 
-15. **[Vald](https://github.com/vdaas/vald)** [![GitHub stars](https://img.shields.io/github/stars/vdaas/vald?style=social&color=white)](https://github.com/vdaas/vald/stargazers)  
+15. **[Vald](https://github.com/vdaas/vald)** [![GitHub_Stars](https://img.shields.io/github/stars/vdaas/vald?style=social&color=white)](https://github.com/vdaas/vald/stargazers)  
     ☸️ **Language**: Go | ☁️ **Specialty**: Cloud-Native Kubernetes Architecture  
     A highly scalable, distributed approximate nearest neighbor vector search engine architected specifically for Kubernetes environments, leveraging NGT for high-accuracy vector neighborhood indexing.
 
-16. **[OpenSearch k-NN](https://github.com/opensearch-project/k-NN)** [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/k-NN?style=social&color=white)](https://github.com/opensearch-project/k-NN/stargazers)  
+16. **[OpenSearch k-NN](https://github.com/opensearch-project/k-NN)** [![GitHub_Stars](https://img.shields.io/github/stars/opensearch-project/k-NN?style=social&color=white)](https://github.com/opensearch-project/k-NN/stargazers)  
     🔎 **Language**: Java / C++ | 🔌 **Specialty**: Search Engine Vector Plugin  
     The official k-nearest neighbors plugin for OpenSearch, enabling vector similarity search alongside traditional search indexes utilizing Faiss and NMSLIB backends.
 
@@ -194,7 +194,7 @@ Contributions are warmly welcomed! Help keep this ecosystem guide up-to-date:
 2. **Add or update an entry** in `README.md` following the existing format.
 3. Include: Product name, official link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
 4. If adding a SaaS product, include specific starting tier pricing and specific free tier limits.
-5. If adding an open-source project, include its star badge (`style=social&color=white`) linking to its stargazers page.
+5. If adding an open-source project, include its Stars_Badge (`style=social&color=white`) linking to its stargazers page.
 6. **Submit a Pull Request** with a brief summary of what was added or changed.
 
 ---
